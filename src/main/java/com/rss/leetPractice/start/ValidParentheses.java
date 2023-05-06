@@ -9,6 +9,7 @@ public class ValidParentheses {
         System.out.println("()} is valid "+isValid("()}"));
         System.out.println("({){)()}][ is valid "+isValid("({){)()}]["));
         System.out.println("()[]{}{([])} is valid "+isValid("()[]{}{([])}"));
+        System.out.println("([}}]) is valid "+isValid("([}}])"));
     }
 
     public static boolean isValid(String s){
